@@ -135,7 +135,7 @@ export default function Home({ data }: any) {
                     p={3}
                     ml={item.me ? "auto" : "none"}
                     mb={4}
-                    maxW="400"
+                    maxW="300"
                   >
                     {item.bot ? item.bot : item.me}
                   </Box>
