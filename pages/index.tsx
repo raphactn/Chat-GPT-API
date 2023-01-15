@@ -119,7 +119,7 @@ export default function Home({ data }: any) {
             <GiArtificialIntelligence fontSize={"50px"} />
             <Text>Open IA</Text>
           </Flex>
-          <Box minH="60vh" maxH="60vh" overflowY={"auto"} mb={2}>
+          <Box minH="70vh" maxH="70vh" overflowY={"auto"} mb={2}>
             {res.length > 0 ? (
               res.map((item: { bot: string; me: string }, i: number) => (
                 <>
@@ -142,7 +142,7 @@ export default function Home({ data }: any) {
                 </>
               ))
             ) : (
-              <Center h="60vh" gap={3} fontSize="2xl">
+              <Center h="70vh" gap={3} fontSize="2xl">
                 <Text>Ask something!</Text> <ChatIcon />
               </Center>
             )}
@@ -153,7 +153,7 @@ export default function Home({ data }: any) {
                 rounded={"md"}
                 p={3}
                 mb={4}
-                maxW="400"
+                maxW="300"
                 className={styles.typing}
               />
             ) : null}
